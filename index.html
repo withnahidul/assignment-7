@@ -76,8 +76,96 @@
             <div id="reported">
                 <h1>Reported posts</h1>
             </div>
+ <!--accordian  dropdown Faq  -->
+
+
+
+ <section class="container mt-5">
+    <h1>Frequently Asked Questions</h1>
+    <div class="container overflow-hidden">
+        <div class="row  gx-5 row-cols-1 row-cols-lg-2 row-cols-md-2">
+            <div class="col p-3  bg-light">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                1.How does Java script work?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Javascript run inside the browser,javascript engine run the code.
+                                Javascript made by Netscape.There are 3 types of browser engine.
+                                Firefox engine name is spider Monkey.
+                                Google engine name is v8.
+                                Microsoft engine name is chakra.
+                                its use script tag and the script loaded in a server, when user want to
+                                access the file its being fatch  and run in the user pc/device.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                2.What does Java Script Event Loop Do?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                javascript is combination of synchronous events and Asynchronus events.
+                                javascript primarily Single threaded.all task store in event Queue like 
+                                to do list.First in first out policy, its excute untill the queue is empty.
+                                Its also works like stack data structure in syncronus events.
+                                another hand its take first task and give it process but not wait take another 
+                                task when first one is complete its give output ita called asynchronus events.
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                3.Difference Between Local Storage & Session Storage?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                web storage ApI use by developer to store some data in web browser, and the data is key velue of strings.
+                                there are two types 1.local storage. 2.session storage.
+                                user only can visit the session storage data when he/she in browser window,if the window is closed data also lost.
+                                but in local storage data never lost if the browser window is closed.
+                                local storage has highest memory capacity then session storage.
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+            
         </main>
+
+        
         <footer></footer>
+            <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
